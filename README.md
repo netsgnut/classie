@@ -7,6 +7,7 @@ classie.has( element, 'my-class' ) // returns true/false
 classie.add( element, 'my-new-class' ) // add new class
 classie.remove( element, 'my-unwanted-class' ) // remove class
 classie.toggle( element, 'my-class' ) // toggle class
+classie.toggle( element, 'my-class', condition ) // toggle class based on condition
 ```
 
 ## Package management
